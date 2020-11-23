@@ -22,6 +22,16 @@ const routes = [
     path:'/one',
     name:"one",
     component:()=> import('@/views/one')
+  },
+  {
+    path:'/thirteen',
+    name:"thirteen",
+    component:()=> import('@/views/thirteen')
+  },
+  {
+    path:'/fourteen',
+    name:"thirteen",
+    component:()=> import('@/views/fourteen')
   }
 ]
 
