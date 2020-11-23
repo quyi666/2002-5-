@@ -54,7 +54,11 @@
         </ul>
       </div>
       <div class="img">
+<<<<<<< HEAD
   <img src="@/assets/切图/1.jpg" alt=""> 
+=======
+      <img src="@/assets/切图/1.jpg" alt="">
+>>>>>>> 4199bbca0de7e3ed6d36c4723c2b2ea72eddfc60
       </div>
     </div>
   </div>

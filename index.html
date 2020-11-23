@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+<script>
+    let obj2 = {
+        a:10,
+        b:function(n){
+            let f = (n) => n+this.a;
+            return f(n);
+        },
+        c:function(n){
+            let f = (n) => n+this.a;
+            let m = {
+                a:20,
+            };
+            return f.call(m,n)
+        },
+
+    }
+    console.log(obj2.b(1))
+    console.log(obj2.c(1))
+
+</script>
+</html>
