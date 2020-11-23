@@ -22,7 +22,17 @@ const routes = [
     path:'/one',
     name:"one",
     component:()=> import('@/views/one')
-  }
+  },
+  {
+    path:'/wzlinde',
+    name:"wzlinde",
+    component:()=> import('@/views/wzlinde')
+  },
+  {
+    path:'/wzlindex1',
+    name:"wzlindex1",
+    component:()=> import('@/views/wzlindex1')
+  },
 ]
 
 const router = new VueRouter({

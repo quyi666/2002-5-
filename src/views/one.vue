@@ -2,7 +2,7 @@
 <div>
 <!-- 头部 -->
     <header>
-           <img src="@/assets/切图/logo.png" alt="">
+           <!-- <img src="@/assets/切图/logo.png" alt=""> -->
         <div>
             <van-icon name="manager-o"/>
           <van-icon name="wap-nav" />
