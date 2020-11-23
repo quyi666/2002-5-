@@ -140,11 +140,7 @@ export default {
   //  如果 root 实例挂载了一个文档内元素，当 mounted 被调用时 vm.$ el 也在文档内。
   mounted() {},
   // 组件方法
-  methods: {
-    dj() {
-      this.$router.push("/list04");
-    }
-  },
+  methods: {},
   // 计算属性
   computed: {}
 };
