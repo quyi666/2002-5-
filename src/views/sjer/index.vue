@@ -311,7 +311,7 @@
           </div>
         </div>
       </div>
-      <van-pagination v-model="currentPage" :page-count="12" mode="simple" />
+      <van-pagination :page-count="12" mode="simple" />
       <div class="main_footer">
         <span>
           房先森互联网家装有别于传统装修公司与其他装修中介平台，
@@ -321,7 +321,9 @@
         >
       </div>
     </div>
-    <div class="footer"></div>
+    <div class="footer">
+        <img src="../../assets/切图/4效果图首页_spec_14.jpg" class="footer_img">
+    </div>
     <div class="to_top">
         <van-icon name="back-top" />
     </div>
@@ -433,7 +435,7 @@ export default {
     width: 100%;
     height: 100%;
     margin-top: 8rem;
-    margin-bottom: 8rem;
+    padding-bottom: 14rem;
     .show {
       width: 100%;
       height: 100%;
@@ -509,6 +511,34 @@ export default {
         margin-left: 2.4rem;
       }
     }
+  }
+  .to_top{
+      width: 3rem;
+      height: 3rem;
+      font-size: 2rem;
+      border-radius: 1.5rem;
+      text-align: center;
+      line-height: 4rem;
+      border: lightgray 1px solid;
+      color: gray;
+      position: fixed;
+      bottom: 9rem;
+      right: 0.5rem;
+      background-color: white;
+  }
+  .footer{
+      position: fixed;
+      bottom: 0rem;
+      left: 0rem;
+      width: 100%;
+      height: 12rem;
+      overflow: hidden;
+    //   position: relative;
+      .footer_img{
+          width: 100%;
+          position: absolute;
+          top: -12rem;
+      }
   }
 }
 </style>
