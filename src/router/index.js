@@ -1,15 +1,15 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
-import Home from '../views/Home.vue'
+// import Home from '../views/Home.vue'
 
 Vue.use(VueRouter)
 
 const routes = [
-  {
-    path: '/',
-    name: 'Home',
-    component: Home
-  },
+  // {
+  //   path: '/',
+  //   name: 'Home',
+  //   component: Home
+  // },
   {
     path: '/about',
     name: 'About',
@@ -19,11 +19,13 @@ const routes = [
     component: () => import(/* webpackChunkName: "about" */ '../views/About.vue')
   },
   {
+<<<<<<< HEAD
     path:'/one',
     name:"one",
     component:()=> import('@/views/one')
   },
   {
+<<<<<<< HEAD
     path:'/wzlinde',
     name:"wzlinde",
     component:()=> import('@/views/wzlinde')
@@ -33,6 +35,34 @@ const routes = [
     name:"wzlindex1",
     component:()=> import('@/views/wzlindex1')
   },
+=======
+    path:'/site',
+    name:'site',
+    component:()=> import('@/views/site.vue')
+  },
+  {
+    path:'/details',
+    name:'details',
+    component:()=> import('@/views/details')
+  },
+  {
+    path:'/action',
+    name:'action',
+    component:()=> import('@/views/action')
+=======
+    path: '/one',
+    name: "one",
+    component: () => import('@/views/one')
+  },
+  {
+    path: '/list03',
+    name: "list03",
+    component: () => import('@/views/list03/list03')
+>>>>>>> 03a161f1dcc24930cca52b53aeac449e8d2b23e5
+  }
+ 
+  
+>>>>>>> c3c86fa3f0fa9575a9cc67e4e1a26f434ae6d004
 ]
 
 const router = new VueRouter({
