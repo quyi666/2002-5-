@@ -26,14 +26,14 @@
      </van-swipe-item>
     </van-swipe>
     
-    <ul class="qy_ul">
+    <!-- <ul class="qy_ul">
         <li>
             <div>
                 <span></span>
                 <span></span>
             </div>
         </li>
-    </ul>
+    </ul> -->
 
     <div class="qy_zx"> 
     <p>
@@ -136,7 +136,7 @@
             </span>
         </div>
 
-        <div>
+        <div class="qy_w">
              <img src="@/assets/切图/1_02.gif" alt="">
         </div>
 
@@ -369,6 +369,12 @@ header{
     }
 }
 
+.qy_w{
+    width: 100%;
+img{
+    width: 100%;
+}
+}
 
 
 
